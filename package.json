@@ -1,0 +1,16 @@
+{
+  "name": "aula-redis-client",
+  "version": "1.0.0",
+  "description": "Exemplo de conexão com o Redis-Client feito em sala",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "redis": "^4.6.10"
+  }
+}
