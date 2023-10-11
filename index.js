@@ -15,3 +15,15 @@ async function conectar(){
 }
 
 conectar();
+
+async function set(key, value){
+    console.log(await client.set(key, value));
+}  
+
+// set('abc','teste');
+
+async function get(key){
+    console.log(await client.get(key));
+}
+
+get('abc');
